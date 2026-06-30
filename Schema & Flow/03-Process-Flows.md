@@ -1,0 +1,341 @@
+# Process Flows - ITIL Asset Management
+
+## 🔄 Core Business Processes
+
+### 1. Procurement Workflow
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    PROCUREMENT PROCESS                       │
+└─────────────────────────────────────────────────────────────┘
+
+[Start: Need Identified]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. CREATE REQUEST   │
+│ - Requestor fills   │
+│ - Add items/specs   │
+│ - Upload docs       │
+│ - Justification     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 2. MANAGER APPROVAL │
+│ - Review request    │
+│ - Check budget      │
+│ - Approve/Reject    │
+└──────────┬──────────┘
+           │
+           ├─── [Rejected] ──> [End: Notify Requestor]
+           │
+           ▼ [Approved]
+┌─────────────────────┐
+│ 3. FINANCE REVIEW   │
+│ - Budget check      │
+│ - Cost validation   │
+│ - Approve/Reject    │
+└──────────┬──────────┘
+           │
+           ├─── [Rejected] ──> [End: Notify Requestor]
+           │
+           ▼ [Approved]
+┌─────────────────────┐
+│ 4. VENDOR SELECTION │
+│ - Get quotations    │
+│ - Compare vendors   │
+│ - Select best offer │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 5. PURCHASE ORDER   │
+│ - Generate PO       │
+│ - Send to vendor    │
+│ - Track delivery    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 6. GOODS RECEIPT    │
+│ - Verify items      │
+│ - Check condition   │
+│ - Upload photos     │
+│ - Create assets     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 7. PAYMENT REQUEST  │
+│ - Upload invoice    │
+│ - Finance approval  │
+│ - Payment processed │
+└──────────┬──────────┘
+           │
+           ▼
+     [End: Complete]
+```
+
+**States & Transitions:**
+- `DRAFT` → `PENDING` (Submit request)
+- `PENDING` → `APPROVED` (All approvals complete)
+- `PENDING` → `REJECTED` (Any approver rejects)
+- `APPROVED` → `ORDERED` (PO sent to vendor)
+- `ORDERED` → `DELIVERED` (Goods received)
+- `DELIVERED` → `PAID` (Payment completed)
+
+**Notifications:**
+- Requestor: Request submitted, approved/rejected, delivered
+- Manager: New request pending approval
+- Finance: Approved request needs budget review
+- IT Staff: Goods delivered, need to create assets
+
+---
+
+### 2. Asset Assignment Workflow
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  ASSET ASSIGNMENT PROCESS                    │
+└─────────────────────────────────────────────────────────────┘
+
+[Trigger: New employee OR Asset available]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. SELECT ASSET     │
+│ - Filter available  │
+│ - Match requirements│
+│ - Check condition   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 2. PREPARE ASSET    │
+│ - Install OS/apps   │
+│ - Configure email   │
+│ - Test functionality│
+│ - Generate QR code  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 3. HANDOVER FORM    │
+│ - Fill details      │
+│ - Employee signs    │
+│ - Take photos       │
+│ - Upload document   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 4. UPDATE SYSTEM    │
+│ - Mark as ASSIGNED  │
+│ - Link to employee  │
+│ - Set assignment    │
+│   date              │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 5. NOTIFY PARTIES   │
+│ - Employee: Welcome │
+│ - Manager: Assigned │
+│ - IT: Track device  │
+└──────────┬──────────┘
+           │
+           ▼
+     [End: Active Use]
+```
+
+**Return Process:**
+```
+[Trigger: Employee resigns OR Transfer]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. RETURN REQUEST   │
+│ - HR notifies IT    │
+│ - Set return date   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 2. COLLECT DEVICE   │
+│ - Employee returns  │
+│ - Check condition   │
+│ - Document state    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 3. DATA WIPE        │
+│ - Backup user data  │
+│ - Factory reset     │
+│ - Verify wiped      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 4. UPDATE SYSTEM    │
+│ - Mark as AVAILABLE │
+│ - Set return date   │
+│ - Close assignment  │
+└──────────┬──────────┘
+           │
+           ▼
+     [End: Ready for reassignment]
+```
+
+---
+
+### 3. License Management Workflow
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  LICENSE MANAGEMENT PROCESS                  │
+└─────────────────────────────────────────────────────────────┘
+
+[New Employee Onboarding]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. CHECK AVAILABLE  │
+│ - Query unassigned  │
+│ - Verify type needed│
+└──────────┬──────────┘
+           │
+           ├──> [Available] ──┐
+           │                  │
+           ▼ [No seats]       ▼
+┌─────────────────────┐  ┌─────────────────────┐
+│ 2. PURCHASE REQUEST │  │ 2. ASSIGN LICENSE   │
+│ - Estimate cost     │  │ - Link to employee  │
+│ - Approval workflow │  │ - Activate account  │
+│ - Buy more seats    │  │ - Send credentials  │
+└──────────┬──────────┘  └──────────┬──────────┘
+           │                        │
+           ▼                        │
+┌─────────────────────┐            │
+│ 3. RECEIVE & ADD    │            │
+│ - Update inventory  │            │
+│ - Set expiry date   │            │
+└──────────┬──────────┘            │
+           │                        │
+           └────────────┬───────────┘
+                        │
+                        ▼
+              [End: License Active]
+
+[Employee Resignation]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. REVOKE LICENSE   │
+│ - Disable account   │
+│ - Export user data  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 2. MARK AVAILABLE   │
+│ - Update seat count │
+│ - Ready for reuse   │
+└──────────┬──────────┘
+           │
+           ▼
+     [End: Seat freed]
+```
+
+**License Expiry Process:**
+```
+[90 days before expiry]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. ALERT IT MANAGER │
+│ - Email notification│
+│ - Dashboard warning │
+└──────────┬──────────┘
+           │
+[60 days before]
+        │
+        ▼
+┌─────────────────────┐
+│ 2. REQUEST QUOTES   │
+│ - Contact vendors   │
+│ - Compare pricing   │
+└──────────┬──────────┘
+           │
+[30 days before]
+        │
+        ▼
+┌─────────────────────┐
+│ 3. RENEWAL APPROVAL │
+│ - Finance approval  │
+│ - Purchase order    │
+└──────────┬──────────┘
+           │
+[Before expiry]
+        │
+        ▼
+┌─────────────────────┐
+│ 4. RENEW & UPDATE   │
+│ - Process payment   │
+│ - Update expiry     │
+│ - No disruption     │
+└──────────┬──────────┘
+           │
+           ▼
+     [End: Renewed]
+```
+
+---
+
+### 4. Maintenance & Repair Workflow
+
+```
+[Issue Reported]
+        │
+        ▼
+┌─────────────────────┐
+│ 1. LOG ISSUE        │
+│ - Description       │
+│ - Severity level    │
+│ - Photos/evidence   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 2. TRIAGE           │
+│ - Assess priority   │
+│ - Check warranty    │
+│ - Assign technician │
+└──────────┬──────────┘
+           │
+           ├──> [Quick fix] ──> [Resolve & Close]
+           │
+           ▼ [Needs repair]
+┌─────────────────────┐
+│ 3. SEND TO VENDOR   │
+│ - Create RMA        │
+│ - Ship device       │
+│ - Track status      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 4. RECEIVE BACK     │
+│ - Test functionality│
+│ - Update condition  │
+│ - Return to user    │
+└──────────┬──────────┘
+           │
+           ▼
+     [End: Issue Closed]
+```
+
+---
+
+*Next: 04-API-Endpoints.md*
