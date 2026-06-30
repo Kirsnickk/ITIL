@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Accounting",
+    "code": "ACCOUNTING"
+  },
+  {
+    "name": "BOD (Finance)",
+    "code": "BOD_(FINANCE)"
+  },
+  {
+    "name": "BOD (Merchandise)",
+    "code": "BOD_(MERCHANDISE)"
+  },
+  {
+    "name": "Brand",
+    "code": "BRAND"
+  },
+  {
+    "name": "Brand Department",
+    "code": "BRAND_DEPARTMENT"
+  },
+  {
+    "name": "Business Development",
+    "code": "BUSINESS_DEVELOPMENT"
+  },
+  {
+    "name": "COE Department",
+    "code": "COE_DEPARTMENT"
+  },
+  {
+    "name": "DSV",
+    "code": "DSV"
+  },
+  {
+    "name": "E-COMMERCE",
+    "code": "E-COMMERCE"
+  },
+  {
+    "name": "HR",
+    "code": "HR"
+  },
+  {
+    "name": "HR Department",
+    "code": "HR_DEPARTMENT"
+  },
+  {
+    "name": "IT",
+    "code": "IT"
+  },
+  {
+    "name": "Intern",
+    "code": "INTERN"
+  },
+  {
+    "name": "Internal Audit & Business Process Assistant Manager",
+    "code": "INTERNAL_AUDIT_&_BUSINESS_PROCESS_ASSISTANT_MANAGER"
+  },
+  {
+    "name": "Legal",
+    "code": "LEGAL"
+  },
+  {
+    "name": "Marketing",
+    "code": "MARKETING"
+  },
+  {
+    "name": "Marketing Department",
+    "code": "MARKETING_DEPARTMENT"
+  },
+  {
+    "name": "Marketing Department (Foot Locker)",
+    "code": "MARKETING_DEPARTMENT_(FOOT_LOCKER)"
+  },
+  {
+    "name": "Merchandise",
+    "code": "MERCHANDISE"
+  },
+  {
+    "name": "Operation",
+    "code": "OPERATION"
+  },
+  {
+    "name": "Operations",
+    "code": "OPERATIONS"
+  },
+  {
+    "name": "Operations Department",
+    "code": "OPERATIONS_DEPARTMENT"
+  },
+  {
+    "name": "Retail Operations Department",
+    "code": "RETAIL_OPERATIONS_DEPARTMENT"
+  },
+  {
+    "name": "SCM",
+    "code": "SCM"
+  },
+  {
+    "name": "Training",
+    "code": "TRAINING"
+  }
+]

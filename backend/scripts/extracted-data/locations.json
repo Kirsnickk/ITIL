@@ -1,0 +1,717 @@
+[
+  {
+    "code": "Accounting Intern",
+    "name": "Accounting Intern (Le Nhi)",
+    "type": "Store"
+  },
+  {
+    "code": "Co Anh Tuan",
+    "name": "Area Manager (South)",
+    "type": "Store"
+  },
+  {
+    "code": "Dang Thanh Nam",
+    "name": "Warehouse and Distribution Supervisor",
+    "type": "Store"
+  },
+  {
+    "code": "Dang Thi Thanh Tam",
+    "name": "Brand Manager (NB, Crocs)",
+    "type": "Store"
+  },
+  {
+    "code": "Dao Duc Huy",
+    "name": "Area Manager (South)",
+    "type": "Store"
+  },
+  {
+    "code": "Dao Thi Hong Le",
+    "name": "Training Assistant Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Doan Thien Ho An",
+    "name": "Digital Marketing Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Duong Quang Minh Tuan",
+    "name": "Area Manager (South)",
+    "type": "Store"
+  },
+  {
+    "code": "Duong Thi Bao Tram",
+    "name": "Wholesale Admin",
+    "type": "Store"
+  },
+  {
+    "code": "Foot Locker Suppervisior(NGuyen Si Anh)",
+    "name": "Foot Locker Suppervisior",
+    "type": "Store"
+  },
+  {
+    "code": "H101-102",
+    "name": "BAZZAR",
+    "type": "Store"
+  },
+  {
+    "code": "HR Intern",
+    "name": "PLANET SPORTS VINCOM DONG KHOI (closed)",
+    "type": "Store"
+  },
+  {
+    "code": "Huynh My Danh",
+    "name": "FP&A Supervisor",
+    "type": "Store"
+  },
+  {
+    "code": "Huynh Ngoc Son",
+    "name": "Huynh Ngoc Son (Project Supervisor)",
+    "type": "Store"
+  },
+  {
+    "code": "Huynh Tuan Nhan",
+    "name": "SCM Manager",
+    "type": "Store"
+  },
+  {
+    "code": "IT",
+    "name": "CONVERSE SMART CITY (Closed)",
+    "type": "Store"
+  },
+  {
+    "code": "IT (PC-PRINTER)",
+    "name": "PC for color printing",
+    "type": "Store"
+  },
+  {
+    "code": "IT BACKUP",
+    "name": "IT BACKUP",
+    "type": "Store"
+  },
+  {
+    "code": "IT BACKUP",
+    "name": "PLANET SPORTS VINCOM DONG KHOI (closed)",
+    "type": "Store"
+  },
+  {
+    "code": "IT Backup",
+    "name": "Inter MKT Nguyễn Hồng Thị Minh Bình",
+    "type": "Store"
+  },
+  {
+    "code": "KN01",
+    "name": "BIRKENSTOCK ESTELLA",
+    "type": "Store"
+  },
+  {
+    "code": "KN08",
+    "name": "BIRKEN DIAMOND PLAZA",
+    "type": "Store"
+  },
+  {
+    "code": "KN09",
+    "name": "BIRKENSTOCK CRESCENT MALL",
+    "type": "Store"
+  },
+  {
+    "code": "KN10",
+    "name": "BIRKEN STOCK GOLDCOAST NHA TRANG",
+    "type": "Store"
+  },
+  {
+    "code": "KN10 bán cho Maison",
+    "name": "KN10 bán cho Maison",
+    "type": "Store"
+  },
+  {
+    "code": "KN12",
+    "name": "BIRKENSTOCK LOTTE MALL",
+    "type": "Store"
+  },
+  {
+    "code": "Le Cam Linh",
+    "name": "Shipping Supervisor",
+    "type": "Store"
+  },
+  {
+    "code": "Le Hong Bao Chau",
+    "name": "Marketing Admin",
+    "type": "Store"
+  },
+  {
+    "code": "Le Ngoc Bao Minh",
+    "name": "Risk Management & Business Process",
+    "type": "Store"
+  },
+  {
+    "code": "Le Ngoc Bich Tram",
+    "name": "Marketing Supervisor (Foot Locker)",
+    "type": "Store"
+  },
+  {
+    "code": "Le Ngoc My Linh",
+    "name": "Senior Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Le Thanh Duyen",
+    "name": "Graphic Designer (Foot Locker)",
+    "type": "Store"
+  },
+  {
+    "code": "Le Thi Anh Tuyet",
+    "name": "Tax & Accounting Assistant Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Luong Huu Quan",
+    "name": "IT Infrastructure & Operations Supervisor",
+    "type": "Store"
+  },
+  {
+    "code": "Luu Giang Cam Van",
+    "name": "New 5430 Laptop provide Tran Vu Kim Chi – Brand Division Manager (Foot Locker)",
+    "type": "Store"
+  },
+  {
+    "code": "Mai Nguyen Diem Quynh",
+    "name": "Payable Accountant",
+    "type": "Store"
+  },
+  {
+    "code": "Nghiem Thi Hong Van",
+    "name": "Senior Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Ngo Anh Tuan",
+    "name": "Senior Wholesaler",
+    "type": "Store"
+  },
+  {
+    "code": "Ngo Thi Bich Tram",
+    "name": "Shipping Officer",
+    "type": "Store"
+  },
+  {
+    "code": "Ngo Tieu Binh",
+    "name": "HR Executive",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Bao Du",
+    "name": "HR Internship",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Duyen Ngoc",
+    "name": "Business Development Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Ha Phuong Uyen",
+    "name": "Head of Finance",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Ha Phuong Uyen",
+    "name": "Nguyen Nhu Quynh (Brand Manager Bata) old laptop",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen My Binh",
+    "name": "Digital Commercial Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Nam Thang",
+    "name": "Senior Wholesaler",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Ngoc Lan Anh",
+    "name": "Graphic Designer",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Ngoc Xuan Duyen",
+    "name": "COE Officer",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Phuoc Thanh",
+    "name": "Merchandiser",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Phuong Lan",
+    "name": "Legal Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Quoc Huy",
+    "name": "Visual Merchandise Supervisor",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Quyet Thang",
+    "name": "COE Officer",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Thanh Anh Thu",
+    "name": "Visual Merchandise Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Thi Huynh Mai",
+    "name": "Finance, Tax & Accounting Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Thi Minh Thu",
+    "name": "Nguyen Thi Minh Thu",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Thi Qui",
+    "name": "General Accountant UFO",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Thi Thuy Mong",
+    "name": "Senior Brand Marketing Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Nguyen Thi Tuyet Nhung",
+    "name": "Senior Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Ni Ksormahhko",
+    "name": "Procurement Executive",
+    "type": "Store"
+  },
+  {
+    "code": "Pham My Tu",
+    "name": "Senior Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Quan Thanh Them",
+    "name": "COE Manager",
+    "type": "Store"
+  },
+  {
+    "code": "Syed Umair Hassan",
+    "name": "GM Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Ta Quynh Trang",
+    "name": "COE Officer",
+    "type": "Store"
+  },
+  {
+    "code": "Thoi Huu Nghia",
+    "name": "new laptop 3420 provide Thoi Huu Nghia( Project team)",
+    "type": "Store"
+  },
+  {
+    "code": "Tiet Nha Phung",
+    "name": "Brand Manager (Converse)",
+    "type": "Store"
+  },
+  {
+    "code": "Tran A giang",
+    "name": "Intern",
+    "type": "Store"
+  },
+  {
+    "code": "Tran Duy Dien",
+    "name": "Inventory Control",
+    "type": "Store"
+  },
+  {
+    "code": "Tran Ngoc Doan Trinh",
+    "name": "Senior Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Tran Thanh Nguyen",
+    "name": "Tran Thanh Nguyen",
+    "type": "Store"
+  },
+  {
+    "code": "Tran Thi Yen Nhi",
+    "name": "Payroll & Em. Servieces Executive",
+    "type": "Store"
+  },
+  {
+    "code": "Tran Vu Kim Chi",
+    "name": "Brand Division Manager (Foot Locker)",
+    "type": "Store"
+  },
+  {
+    "code": "VA01",
+    "name": "NEW BALANCE VAN HANH MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VA02",
+    "name": "NEW BALANCE TAKASHIMAYA",
+    "type": "Store"
+  },
+  {
+    "code": "VA03",
+    "name": "NEW BALANCE AEON HAI PHONG",
+    "type": "Store"
+  },
+  {
+    "code": "VA04-ADMIN",
+    "name": "VA04-ADMIN",
+    "type": "Store"
+  },
+  {
+    "code": "VA05",
+    "name": "NEW BALANCE VINCOM THAO DIEN",
+    "type": "Store"
+  },
+  {
+    "code": "VA06",
+    "name": "NEW BALANCE CRESCENT MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VA08",
+    "name": "NEW BALANCE DIAMOND PLAZA",
+    "type": "Store"
+  },
+  {
+    "code": "VA09",
+    "name": "NEW BALANCE IPH MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VA10",
+    "name": "NEW BALANCE LOTTE HA NOI DEPARTMENT",
+    "type": "Store"
+  },
+  {
+    "code": "VA11",
+    "name": "NEW BALANCE 89 NGUYEN TRAI",
+    "type": "Store"
+  },
+  {
+    "code": "VA12",
+    "name": "NEW BALANCE LOTTE MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VA13",
+    "name": "New Balance Parc Mall",
+    "type": "Store"
+  },
+  {
+    "code": "VA14",
+    "name": "New Balance Vincom Dong Khoi",
+    "type": "Store"
+  },
+  {
+    "code": "VA15",
+    "name": "New Balance Saigon Center",
+    "type": "Store"
+  },
+  {
+    "code": "VA16",
+    "name": "New Balance Outlet Quang Trung",
+    "type": "Store"
+  },
+  {
+    "code": "VA20",
+    "name": "New Balacne Lotte Distric 7",
+    "type": "Store"
+  },
+  {
+    "code": "VA23",
+    "name": "New Balance Lotte Lieu Giai",
+    "type": "Store"
+  },
+  {
+    "code": "VC03",
+    "name": "CHAMPION AEON HAI PHONG",
+    "type": "Store"
+  },
+  {
+    "code": "VC05",
+    "name": "CHAMPION CRESCENT MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VC06",
+    "name": "PLANET SPORTS GOLDCOAST NHA TRANG",
+    "type": "Store"
+  },
+  {
+    "code": "VC08",
+    "name": "CHAMPION AEON LONG BIEN",
+    "type": "Store"
+  },
+  {
+    "code": "VE03",
+    "name": "NEW ERA AEON HA DONG",
+    "type": "Store"
+  },
+  {
+    "code": "VE04",
+    "name": "NEW ERA AEON LONG BIEN",
+    "type": "Store"
+  },
+  {
+    "code": "VE05",
+    "name": "NEW ERA CRESCENT MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VE06",
+    "name": "NEW ERA DIAMOND PLAZA",
+    "type": "Store"
+  },
+  {
+    "code": "VE12",
+    "name": "NEW ERA LOTTE MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VF02",
+    "name": "BIRKENSTOCK VINCOM DONG KHOI",
+    "type": "Store"
+  },
+  {
+    "code": "VI01",
+    "name": "SMIGGLE ROBINS CRESCENT MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VI02\nVR02",
+    "name": "SMIGGLE& ROOKIE TAKASHIMAYA",
+    "type": "Store"
+  },
+  {
+    "code": "VI03",
+    "name": "EVENT",
+    "type": "Store"
+  },
+  {
+    "code": "VI03",
+    "name": "SMIGGLE ESTELLA",
+    "type": "Store"
+  },
+  {
+    "code": "VI05",
+    "name": "SMIGGLE LOTTE HA NOI DEPARTMENT",
+    "type": "Store"
+  },
+  {
+    "code": "VI06",
+    "name": "SMIGGLE VAN HANH MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VN01",
+    "name": "CONVERSE AEON LONG BIEN",
+    "type": "Store"
+  },
+  {
+    "code": "VN02",
+    "name": "CONVERSE LE VAN SY",
+    "type": "Store"
+  },
+  {
+    "code": "VN03",
+    "name": "VN03- CONVERSE TAKASHIMAYA",
+    "type": "Store"
+  },
+  {
+    "code": "VN04",
+    "name": "CONVERSE AEON HA DONG",
+    "type": "Store"
+  },
+  {
+    "code": "VN05",
+    "name": "CONVERSE CRESCENT MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VN06",
+    "name": "CONVERSE LOTTE HA NOI DEPARTMENT",
+    "type": "Store"
+  },
+  {
+    "code": "VN06-ADMIN",
+    "name": "LAPTOP OLD  VANHUYNHTU TRINH",
+    "type": "Store"
+  },
+  {
+    "code": "VN07",
+    "name": "CONVERSE NGUYEN TRAI",
+    "type": "Store"
+  },
+  {
+    "code": "VN08",
+    "name": "CONVERSE HAI BA TRUNG",
+    "type": "Store"
+  },
+  {
+    "code": "VN09",
+    "name": "CONVERSE AEON BINH DUONG",
+    "type": "Store"
+  },
+  {
+    "code": "VN10",
+    "name": "CONVERSE AEON BINH TAN",
+    "type": "Store"
+  },
+  {
+    "code": "VN12",
+    "name": "CONVERSE LOTTE MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VN13",
+    "name": "CONVERSE VINCOM MY THO",
+    "type": "Store"
+  },
+  {
+    "code": "VN14",
+    "name": "CONVERSE VINCOM ROYAL CITY",
+    "type": "Store"
+  },
+  {
+    "code": "VN16",
+    "name": "CONVERSE BA THANG HAI",
+    "type": "Store"
+  },
+  {
+    "code": "VN17",
+    "name": "CONVERSE SMART CITY",
+    "type": "Store"
+  },
+  {
+    "code": "VN19\nVI04",
+    "name": "CONVERSE & SMIGGLE GOLDCOAST NHA TRANG",
+    "type": "Store"
+  },
+  {
+    "code": "VN24",
+    "name": "CONVERSE BA CU VUNG TAU",
+    "type": "Store"
+  },
+  {
+    "code": "VN27",
+    "name": "CONVERSE CFS QUANG TRUNG",
+    "type": "Store"
+  },
+  {
+    "code": "VO02",
+    "name": "FOOTLOCKER LOTTE MALL",
+    "type": "Store"
+  },
+  {
+    "code": "VR05",
+    "name": "ROOKIE LOTTE HA NOI DEPARTMENT",
+    "type": "Store"
+  },
+  {
+    "code": "VR12",
+    "name": "ROOKIE LOTTE MALL",
+    "type": "Store"
+  },
+  {
+    "code": "Vo Lam Minh Dat",
+    "name": "Area Manager (South)",
+    "type": "Store"
+  },
+  {
+    "code": "Vo Ngoc Thanh Ngan",
+    "name": "Intern",
+    "type": "Store"
+  },
+  {
+    "code": "Vo Thi Hoang Anh Xuan",
+    "name": "Laptop Quynh AM (resigned)",
+    "type": "Store"
+  },
+  {
+    "code": "Vo Thuy Minh Tuyen",
+    "name": "Senior Merchandise",
+    "type": "Store"
+  },
+  {
+    "code": "Vu Xuan Uyen",
+    "name": "Marketing officer",
+    "type": "Store"
+  },
+  {
+    "code": "ZK04-ZV04-ZW04",
+    "name": "BAZZAR (TIKI VK & TIKI VF)",
+    "type": "Store"
+  },
+  {
+    "code": "ZK05-ZV05-ZW5",
+    "name": "BAZZAR",
+    "type": "Store"
+  },
+  {
+    "code": "ZK06-ZV06-ZW06",
+    "name": "BAZZAR",
+    "type": "Store"
+  },
+  {
+    "code": "ZV01-H103-H104",
+    "name": "BAZZAR",
+    "type": "Store"
+  },
+  {
+    "code": "ZV08",
+    "name": "EVENT",
+    "type": "Store"
+  },
+  {
+    "code": "ZV09-ZV12",
+    "name": "EVENT",
+    "type": "Store"
+  },
+  {
+    "code": "ZV10",
+    "name": "EVENT",
+    "type": "Store"
+  },
+  {
+    "code": "ZV11",
+    "name": "EVENT",
+    "type": "Store"
+  },
+  {
+    "code": "ZV13",
+    "name": "ZV13",
+    "type": "Store"
+  },
+  {
+    "code": "ZV14",
+    "name": "SPORT BAZAAR PHAN VAN TRI HO CHI MINH",
+    "type": "Store"
+  },
+  {
+    "code": "zv13",
+    "name": "zv13",
+    "type": "Store"
+  },
+  {
+    "code": "zv15",
+    "name": "zv15",
+    "type": "Store"
+  }
+]
