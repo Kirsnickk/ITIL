@@ -186,11 +186,20 @@ async function main() {
         role = 'ADMIN';
       }
       
+      // Generate username from email
+      const username = user.email.split('@')[0];
+      const fullName = user.fullName || user.displayName || username;
+      const nameParts = fullName.split(' ');
+      const firstName = nameParts[0] || username;
+      const lastName = nameParts.slice(1).join(' ') || 'User';
+      
       const created = await prisma.user.create({
         data: {
           email: user.email,
-          password: defaultPassword,
-          fullName: user.fullName || user.displayName || user.email.split('@')[0],
+          username: username,
+          passwordHash: defaultPassword,
+          firstName: firstName,
+          lastName: lastName,
           role: role,
           isActive: true,
           departmentId: departmentId,
@@ -240,27 +249,26 @@ async function main() {
       }
       
       // Create asset
+      // Build notes with specifications
+      const specsNote = [
+        asset.note,
+        asset.cpu ? `CPU: ${asset.cpu}` : null,
+        asset.ram ? `RAM: ${asset.ram}` : null,
+        asset.hardDisk ? `HDD: ${asset.hardDisk}` : null,
+        asset.hostname ? `Hostname: ${asset.hostname}` : null,
+      ].filter(Boolean).join(' | ');
+      
       await prisma.asset.create({
         data: {
           assetTag: assetTag,
           name: asset.assetDescription || asset.description || 'Unknown Asset',
           type: mapAssetType(asset.assetType),
           status: mapAssetStatus(asset.status),
-          brand: asset.brand,
-          model: asset.model,
-          serialNumber: asset.serialNumber,
-          specifications: JSON.stringify({
-            cpu: asset.cpu,
-            ram: asset.ram,
-            hardDisk: asset.hardDisk,
-            hardDiskType: asset.hardDiskType,
-            additionalSpecs: asset.additionalSpecs,
-            hostname: asset.hostname,
-            oldHostname: asset.oldHostname,
-          }),
+          manufacturer: asset.brand || asset.vendor || null,
+          model: asset.model || null,
+          serialNumber: asset.serialNumber || null,
           purchaseDate: purchaseDate,
-          vendor: asset.vendor,
-          notes: asset.note,
+          notes: specsNote || null,
           locationId: locationId,
           assignedToId: assignedUserId,
         },
@@ -289,8 +297,10 @@ async function main() {
       await prisma.user.create({
         data: {
           email: 'admin@itil.com',
-          password: adminPassword,
-          fullName: 'System Administrator',
+          username: 'admin',
+          passwordHash: adminPassword,
+          firstName: 'System',
+          lastName: 'Administrator',
           role: 'ADMIN',
           isActive: true,
         },
