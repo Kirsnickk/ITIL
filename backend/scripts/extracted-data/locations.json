@@ -1,717 +1,910 @@
 [
   {
-    "code": "Accounting Intern",
-    "name": "Accounting Intern (Le Nhi)",
-    "type": "Store"
-  },
-  {
-    "code": "Co Anh Tuan",
-    "name": "Area Manager (South)",
-    "type": "Store"
-  },
-  {
-    "code": "Dang Thanh Nam",
-    "name": "Warehouse and Distribution Supervisor",
-    "type": "Store"
-  },
-  {
-    "code": "Dang Thi Thanh Tam",
-    "name": "Brand Manager (NB, Crocs)",
-    "type": "Store"
-  },
-  {
-    "code": "Dao Duc Huy",
-    "name": "Area Manager (South)",
-    "type": "Store"
-  },
-  {
-    "code": "Dao Thi Hong Le",
-    "name": "Training Assistant Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Doan Thien Ho An",
-    "name": "Digital Marketing Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Duong Quang Minh Tuan",
-    "name": "Area Manager (South)",
-    "type": "Store"
-  },
-  {
-    "code": "Duong Thi Bao Tram",
-    "name": "Wholesale Admin",
-    "type": "Store"
-  },
-  {
-    "code": "Foot Locker Suppervisior(NGuyen Si Anh)",
-    "name": "Foot Locker Suppervisior",
-    "type": "Store"
-  },
-  {
-    "code": "H101-102",
-    "name": "BAZZAR",
-    "type": "Store"
-  },
-  {
-    "code": "HR Intern",
-    "name": "PLANET SPORTS VINCOM DONG KHOI (closed)",
-    "type": "Store"
-  },
-  {
-    "code": "Huynh My Danh",
-    "name": "FP&A Supervisor",
-    "type": "Store"
-  },
-  {
-    "code": "Huynh Ngoc Son",
-    "name": "Huynh Ngoc Son (Project Supervisor)",
-    "type": "Store"
-  },
-  {
-    "code": "Huynh Tuan Nhan",
-    "name": "SCM Manager",
-    "type": "Store"
-  },
-  {
-    "code": "IT",
-    "name": "CONVERSE SMART CITY (Closed)",
-    "type": "Store"
-  },
-  {
-    "code": "IT (PC-PRINTER)",
-    "name": "PC for color printing",
-    "type": "Store"
-  },
-  {
-    "code": "IT BACKUP",
-    "name": "IT BACKUP",
-    "type": "Store"
-  },
-  {
-    "code": "IT BACKUP",
-    "name": "PLANET SPORTS VINCOM DONG KHOI (closed)",
-    "type": "Store"
-  },
-  {
-    "code": "IT Backup",
-    "name": "Inter MKT Nguyễn Hồng Thị Minh Bình",
-    "type": "Store"
-  },
-  {
-    "code": "KN01",
-    "name": "BIRKENSTOCK ESTELLA",
-    "type": "Store"
-  },
-  {
-    "code": "KN08",
-    "name": "BIRKEN DIAMOND PLAZA",
-    "type": "Store"
-  },
-  {
-    "code": "KN09",
-    "name": "BIRKENSTOCK CRESCENT MALL",
-    "type": "Store"
-  },
-  {
-    "code": "KN10",
-    "name": "BIRKEN STOCK GOLDCOAST NHA TRANG",
-    "type": "Store"
-  },
-  {
-    "code": "KN10 bán cho Maison",
-    "name": "KN10 bán cho Maison",
-    "type": "Store"
-  },
-  {
-    "code": "KN12",
-    "name": "BIRKENSTOCK LOTTE MALL",
-    "type": "Store"
-  },
-  {
-    "code": "Le Cam Linh",
-    "name": "Shipping Supervisor",
-    "type": "Store"
-  },
-  {
-    "code": "Le Hong Bao Chau",
-    "name": "Marketing Admin",
-    "type": "Store"
-  },
-  {
-    "code": "Le Ngoc Bao Minh",
-    "name": "Risk Management & Business Process",
-    "type": "Store"
-  },
-  {
-    "code": "Le Ngoc Bich Tram",
-    "name": "Marketing Supervisor (Foot Locker)",
-    "type": "Store"
-  },
-  {
-    "code": "Le Ngoc My Linh",
-    "name": "Senior Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Le Thanh Duyen",
-    "name": "Graphic Designer (Foot Locker)",
-    "type": "Store"
-  },
-  {
-    "code": "Le Thi Anh Tuyet",
-    "name": "Tax & Accounting Assistant Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Luong Huu Quan",
-    "name": "IT Infrastructure & Operations Supervisor",
-    "type": "Store"
-  },
-  {
-    "code": "Luu Giang Cam Van",
-    "name": "New 5430 Laptop provide Tran Vu Kim Chi – Brand Division Manager (Foot Locker)",
-    "type": "Store"
-  },
-  {
-    "code": "Mai Nguyen Diem Quynh",
-    "name": "Payable Accountant",
-    "type": "Store"
-  },
-  {
-    "code": "Nghiem Thi Hong Van",
-    "name": "Senior Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Ngo Anh Tuan",
-    "name": "Senior Wholesaler",
-    "type": "Store"
-  },
-  {
-    "code": "Ngo Thi Bich Tram",
-    "name": "Shipping Officer",
-    "type": "Store"
-  },
-  {
-    "code": "Ngo Tieu Binh",
-    "name": "HR Executive",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Bao Du",
-    "name": "HR Internship",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Duyen Ngoc",
-    "name": "Business Development Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Ha Phuong Uyen",
-    "name": "Head of Finance",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Ha Phuong Uyen",
-    "name": "Nguyen Nhu Quynh (Brand Manager Bata) old laptop",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen My Binh",
-    "name": "Digital Commercial Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Nam Thang",
-    "name": "Senior Wholesaler",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Ngoc Lan Anh",
-    "name": "Graphic Designer",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Ngoc Xuan Duyen",
-    "name": "COE Officer",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Phuoc Thanh",
-    "name": "Merchandiser",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Phuong Lan",
-    "name": "Legal Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Quoc Huy",
-    "name": "Visual Merchandise Supervisor",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Quyet Thang",
-    "name": "COE Officer",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Thanh Anh Thu",
-    "name": "Visual Merchandise Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Thi Huynh Mai",
-    "name": "Finance, Tax & Accounting Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Thi Minh Thu",
-    "name": "Nguyen Thi Minh Thu",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Thi Qui",
-    "name": "General Accountant UFO",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Thi Thuy Mong",
-    "name": "Senior Brand Marketing Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Nguyen Thi Tuyet Nhung",
-    "name": "Senior Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Ni Ksormahhko",
-    "name": "Procurement Executive",
-    "type": "Store"
-  },
-  {
-    "code": "Pham My Tu",
-    "name": "Senior Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Quan Thanh Them",
-    "name": "COE Manager",
-    "type": "Store"
-  },
-  {
-    "code": "Syed Umair Hassan",
-    "name": "GM Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Ta Quynh Trang",
-    "name": "COE Officer",
-    "type": "Store"
-  },
-  {
-    "code": "Thoi Huu Nghia",
-    "name": "new laptop 3420 provide Thoi Huu Nghia( Project team)",
-    "type": "Store"
-  },
-  {
-    "code": "Tiet Nha Phung",
-    "name": "Brand Manager (Converse)",
-    "type": "Store"
-  },
-  {
-    "code": "Tran A giang",
-    "name": "Intern",
-    "type": "Store"
-  },
-  {
-    "code": "Tran Duy Dien",
-    "name": "Inventory Control",
-    "type": "Store"
-  },
-  {
-    "code": "Tran Ngoc Doan Trinh",
-    "name": "Senior Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Tran Thanh Nguyen",
-    "name": "Tran Thanh Nguyen",
-    "type": "Store"
-  },
-  {
-    "code": "Tran Thi Yen Nhi",
-    "name": "Payroll & Em. Servieces Executive",
-    "type": "Store"
-  },
-  {
-    "code": "Tran Vu Kim Chi",
-    "name": "Brand Division Manager (Foot Locker)",
-    "type": "Store"
-  },
-  {
-    "code": "VA01",
-    "name": "NEW BALANCE VAN HANH MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VA02",
-    "name": "NEW BALANCE TAKASHIMAYA",
-    "type": "Store"
-  },
-  {
-    "code": "VA03",
-    "name": "NEW BALANCE AEON HAI PHONG",
-    "type": "Store"
-  },
-  {
-    "code": "VA04-ADMIN",
-    "name": "VA04-ADMIN",
-    "type": "Store"
-  },
-  {
-    "code": "VA05",
-    "name": "NEW BALANCE VINCOM THAO DIEN",
-    "type": "Store"
-  },
-  {
-    "code": "VA06",
-    "name": "NEW BALANCE CRESCENT MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VA08",
-    "name": "NEW BALANCE DIAMOND PLAZA",
-    "type": "Store"
-  },
-  {
-    "code": "VA09",
-    "name": "NEW BALANCE IPH MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VA10",
-    "name": "NEW BALANCE LOTTE HA NOI DEPARTMENT",
-    "type": "Store"
-  },
-  {
-    "code": "VA11",
-    "name": "NEW BALANCE 89 NGUYEN TRAI",
-    "type": "Store"
-  },
-  {
-    "code": "VA12",
-    "name": "NEW BALANCE LOTTE MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VA13",
-    "name": "New Balance Parc Mall",
-    "type": "Store"
-  },
-  {
-    "code": "VA14",
-    "name": "New Balance Vincom Dong Khoi",
-    "type": "Store"
-  },
-  {
-    "code": "VA15",
-    "name": "New Balance Saigon Center",
-    "type": "Store"
-  },
-  {
-    "code": "VA16",
-    "name": "New Balance Outlet Quang Trung",
-    "type": "Store"
-  },
-  {
-    "code": "VA20",
-    "name": "New Balacne Lotte Distric 7",
-    "type": "Store"
-  },
-  {
-    "code": "VA23",
-    "name": "New Balance Lotte Lieu Giai",
-    "type": "Store"
-  },
-  {
-    "code": "VC03",
-    "name": "CHAMPION AEON HAI PHONG",
-    "type": "Store"
-  },
-  {
-    "code": "VC05",
-    "name": "CHAMPION CRESCENT MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VC06",
-    "name": "PLANET SPORTS GOLDCOAST NHA TRANG",
-    "type": "Store"
-  },
-  {
-    "code": "VC08",
-    "name": "CHAMPION AEON LONG BIEN",
-    "type": "Store"
-  },
-  {
-    "code": "VE03",
-    "name": "NEW ERA AEON HA DONG",
-    "type": "Store"
-  },
-  {
-    "code": "VE04",
-    "name": "NEW ERA AEON LONG BIEN",
-    "type": "Store"
-  },
-  {
-    "code": "VE05",
-    "name": "NEW ERA CRESCENT MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VE06",
-    "name": "NEW ERA DIAMOND PLAZA",
-    "type": "Store"
-  },
-  {
-    "code": "VE12",
-    "name": "NEW ERA LOTTE MALL",
-    "type": "Store"
+    "code": "PO02",
+    "name": "PLANET SPORTS VINCOM DONG KHOI",
+    "type": "STORE",
+    "address": "B1 Vincom Dong Khoi , 72 Le Thanh Ton, Ben Nghe Ward , District 1 , Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmpo02@mapactive.vn"
+  },
+  {
+    "code": "VC01",
+    "name": "CHAMPION VINCOM DONG KHOI",
+    "type": "STORE",
+    "address": "B1 Vincom Dong Khoi , 72 Le Thanh Ton, Ben Nghe Ward , District 1 , Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvc01@mapactive.vn"
   },
   {
     "code": "VF02",
     "name": "BIRKENSTOCK VINCOM DONG KHOI",
-    "type": "Store"
+    "type": "STORE",
+    "address": "B1 Vincom Dong Khoi , 72 Le Thanh Ton, Ben Nghe Ward , District 1 , Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvf02@mapactive.vn"
+  },
+  {
+    "code": "VC02",
+    "name": "CHAMPION TAKASHIMAYA",
+    "type": "STORE",
+    "address": "L3 No 92-94 Nam Ky Khoi Nghia, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvc02@mapactive.vn"
+  },
+  {
+    "code": "VN03",
+    "name": "CONVERSE TAKASHIMAYA",
+    "type": "STORE",
+    "address": "L3 No 92-94 Nam Ky Khoi Nghia, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn03@mapactive.vn"
+  },
+  {
+    "code": "VR02",
+    "name": "ROOKIE TAKASHIMAYA",
+    "type": "STORE",
+    "address": "L3 No 92-94 Nam Ky Khoi Nghia, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvr02@mapactive.vn"
+  },
+  {
+    "code": "VI02",
+    "name": "SMIGGLE TAKASHIMAYA",
+    "type": "STORE",
+    "address": "L3 No 92-94 Nam Ky Khoi Nghia, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvi02@mapactive.vn"
+  },
+  {
+    "code": "KN05",
+    "name": "BIRKENSTOCK TAKASHIMAYA",
+    "type": "STORE",
+    "address": "L3 No 92-94 Nam Ky Khoi Nghia, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmkn05@mapactive.vn"
   },
   {
     "code": "VI01",
     "name": "SMIGGLE ROBINS CRESCENT MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VI02\nVR02",
-    "name": "SMIGGLE& ROOKIE TAKASHIMAYA",
-    "type": "Store"
-  },
-  {
-    "code": "VI03",
-    "name": "EVENT",
-    "type": "Store"
-  },
-  {
-    "code": "VI03",
-    "name": "SMIGGLE ESTELLA",
-    "type": "Store"
-  },
-  {
-    "code": "VI05",
-    "name": "SMIGGLE LOTTE HA NOI DEPARTMENT",
-    "type": "Store"
-  },
-  {
-    "code": "VI06",
-    "name": "SMIGGLE VAN HANH MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VN01",
-    "name": "CONVERSE AEON LONG BIEN",
-    "type": "Store"
-  },
-  {
-    "code": "VN02",
-    "name": "CONVERSE LE VAN SY",
-    "type": "Store"
-  },
-  {
-    "code": "VN03",
-    "name": "VN03- CONVERSE TAKASHIMAYA",
-    "type": "Store"
-  },
-  {
-    "code": "VN04",
-    "name": "CONVERSE AEON HA DONG",
-    "type": "Store"
+    "type": "STORE",
+    "address": "L4 (4F-11) 101 Ton Dat Tien, Tan Phu Ward, District 7, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvi01@mapactive.vn"
   },
   {
     "code": "VN05",
     "name": "CONVERSE CRESCENT MALL",
-    "type": "Store"
+    "type": "STORE",
+    "address": "L3 101 Ton Dat Tien, Tan Phu Ward, District 7, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn05@mapactive.vn"
   },
   {
-    "code": "VN06",
-    "name": "CONVERSE LOTTE HA NOI DEPARTMENT",
-    "type": "Store"
+    "code": "VC05",
+    "name": "CHAMPION CRESCENT MALL",
+    "type": "STORE",
+    "address": "L2 101 Ton Dat Tien, Tan Phu Ward, District 7, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvc05@mapactive.vn"
   },
   {
-    "code": "VN06-ADMIN",
-    "name": "LAPTOP OLD  VANHUYNHTU TRINH",
-    "type": "Store"
+    "code": "VE05",
+    "name": "NEW ERA CRESCENT MALL",
+    "type": "STORE",
+    "address": "L3 101 Ton Dat Tien, Tan Phu Ward, District 7, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "Hcmve05@mapactive.vn"
+  },
+  {
+    "code": "PO01",
+    "name": "PLANET SPORTS VINCOM THAO DIEN",
+    "type": "STORE",
+    "address": "L1 161 Ha Noi Highway, Thao Dien Ward, District 2, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmpo01@mapactive.vn"
+  },
+  {
+    "code": "KN01",
+    "name": "BIRKENSTOCK ESTELLA",
+    "type": "STORE",
+    "address": "Floor 2-13B , 88 Song Hanh,An Phu Ward, Estella Place, District 2, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmkn01@mapactive.vn"
+  },
+  {
+    "code": "VI03",
+    "name": "SMIGGLE ESTELLA",
+    "type": "STORE",
+    "address": "Floor 1 , 88 Song Hanh,An Phu Ward, Estella Place, District 2, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvi03@mapactive.vn"
+  },
+  {
+    "code": "VC06",
+    "name": "PLANET SPORTS GOLDCOAST NHA TRANG",
+    "type": "STORE",
+    "address": "Floor G, GoldCoast Mall, 01 Tran Hung Dao, Loc Tho, Nha Trang, Khanh Hoa",
+    "city": "NHA TRANG",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "ntvc06@mapactive.vn"
+  },
+  {
+    "code": "VN19",
+    "name": "CONVERSE GOLDCOAST NHA TRANG",
+    "type": "STORE",
+    "address": "Floor 2, GoldCoast Mall, 01 Tran Hung Dao, Loc Tho, Nha Trang, Khanh Hoa",
+    "city": "NHA TRANG",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "ntvn19@mapactive.vn"
+  },
+  {
+    "code": "VI04",
+    "name": "SMIGGLE GOLDCOAST NHA TRANG",
+    "type": "STORE",
+    "address": "Floor 2, GoldCoast Mall, 01 Tran Hung Dao, Loc Tho, Nha Trang, Khanh Hoa",
+    "city": "NHA TRANG",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "ntvi04@mapactive.vn"
   },
   {
     "code": "VN07",
     "name": "CONVERSE NGUYEN TRAI",
-    "type": "Store"
+    "type": "STORE",
+    "address": "124 Nguyen Trai, Ben Thanh Ward, District 1, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn07@mapactive.vn"
   },
   {
-    "code": "VN08",
-    "name": "CONVERSE HAI BA TRUNG",
-    "type": "Store"
-  },
-  {
-    "code": "VN09",
-    "name": "CONVERSE AEON BINH DUONG",
-    "type": "Store"
-  },
-  {
-    "code": "VN10",
-    "name": "CONVERSE AEON BINH TAN",
-    "type": "Store"
-  },
-  {
-    "code": "VN12",
-    "name": "CONVERSE LOTTE MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VN13",
-    "name": "CONVERSE VINCOM MY THO",
-    "type": "Store"
-  },
-  {
-    "code": "VN14",
-    "name": "CONVERSE VINCOM ROYAL CITY",
-    "type": "Store"
+    "code": "VN02",
+    "name": "CONVERSE LE VAN SY",
+    "type": "STORE",
+    "address": "485 Le Van Sy ,Ward 12 , District 3, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvn02@mapactive.vn"
   },
   {
     "code": "VN16",
     "name": "CONVERSE BA THANG HAI",
-    "type": "Store"
+    "type": "STORE",
+    "address": "152 Ba Thang Hai ,Ward 12, District 10, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn16@mapactive.vn"
+  },
+  {
+    "code": "VN09",
+    "name": "CONVERSE AEON BINH DUONG",
+    "type": "STORE",
+    "address": "Aeon Canary 01 Binh Duong Boulevard, Thuan An Town, Binh Duong",
+    "city": "Binh Duong",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn09@mapactive.vn"
+  },
+  {
+    "code": "VN10",
+    "name": "CONVERSE AEON BINH TAN",
+    "type": "STORE",
+    "address": "F26 , 1 Floor , Aeon Mall Binh Tan (01, 17A Street, Binh Tri Dong B Ward, Binh Tan District, Ho Chi Minh City)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn10@mapactive.vn"
+  },
+  {
+    "code": "VN13",
+    "name": "CONVERSE VINCOM MY THO",
+    "type": "STORE",
+    "address": "1A Hung Vuong, Ward 1, My Tho City - Tien Giang",
+    "city": "My Tho City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "tgvn13@mapactive.vn"
+  },
+  {
+    "code": "VN08",
+    "name": "CONVERSE HAI BA TRUNG",
+    "type": "STORE",
+    "address": "243 Hai Ba Trung, Vo Thi Sau Ward, District 3, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmvn08@mapactive.vn"
+  },
+  {
+    "code": "VC03",
+    "name": "CHAMPION AEON HAI PHONG",
+    "type": "STORE",
+    "address": "Floor 2 Aeon Mall Le Chan, 10 Vo Nguyen Giap, Du Hang Kenh, Le Chan, Hai Phong",
+    "city": "Hai Phong",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hpvc03@mapactive.vn"
+  },
+  {
+    "code": "VE01",
+    "name": "NEW ERA AEON HAI PHONG",
+    "type": "STORE",
+    "address": "Floor 2 Aeon Mall Le Chan, 10 Vo Nguyen Giap, Du Hang Kenh, Le Chan, Hai Phong",
+    "city": "Hai Phong",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hpve01@mapactive.vn"
+  },
+  {
+    "code": "VC04",
+    "name": "PLANET SPORTS LOTTE HA NOI DEPARTMENT",
+    "type": "STORE",
+    "address": "Floor 3 54 Lieu Giai Street, Ngoc Khanh Ward, Ba Dinh District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hnvc04@mapactive.vn"
+  },
+  {
+    "code": "VN06",
+    "name": "CONVERSE LOTTE HA NOI DEPARTMENT",
+    "type": "STORE",
+    "address": "Floor 3 54 Lieu Giai Street, Ngoc Khanh Ward, Ba Dinh District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hnvn06@mapactive.vn"
+  },
+  {
+    "code": "VC08",
+    "name": "CHAMPION AEON LONG BIEN",
+    "type": "STORE",
+    "address": "T218 Aeon Mall Long Bien, No. 27 Co Linh Street, Long Bien Ward, Long Bien District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hnvc08@mapactive.vn"
+  },
+  {
+    "code": "VE04",
+    "name": "NEW ERA AEON LONG BIEN",
+    "type": "STORE",
+    "address": "T218 Aeon Mall Long Bien, No. 27 Co Linh Street, Long Bien Ward, Long Bien District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hnve04@mapactive.vn"
+  },
+  {
+    "code": "VN01",
+    "name": "CONVERSE AEON LONG BIEN",
+    "type": "STORE",
+    "address": "T217 Aeon Mall Long Bien, No. 27 Co Linh Street, Long Bien Ward, Long Bien District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hnvn01@mapactive.vn"
+  },
+  {
+    "code": "VE03",
+    "name": "NEW ERA AEON HA DONG",
+    "type": "STORE",
+    "address": "T228 Aeon Ha Dong, Hoang Van Thu Residential Area, Duong Noi Ward, Ha Dong District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hnve03@mapactive.vn"
+  },
+  {
+    "code": "VN04",
+    "name": "CONVERSE AEON HA DONG",
+    "type": "STORE",
+    "address": "T228 Aeon Ha Dong, Hoang Van Thu Residential Area, Duong Noi Ward, Ha Dong District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hnvn04@mapactive.vn"
   },
   {
     "code": "VN17",
     "name": "CONVERSE SMART CITY",
-    "type": "Store"
+    "type": "STORE",
+    "address": "L1-24 Vincom Mega Mall Smart City, Tay Mo Ward,Nam Từ Liêm District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hnvn17@mapactive.vn"
   },
   {
-    "code": "VN19\nVI04",
-    "name": "CONVERSE & SMIGGLE GOLDCOAST NHA TRANG",
-    "type": "Store"
+    "code": "VN14",
+    "name": "CONVERSE VINCOM ROYAL CITY",
+    "type": "STORE",
+    "address": "B1-R6-40 72A Nguyen Trai, Thanh Xuan, Hanoi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hnvn14@mapactive.vn"
   },
   {
-    "code": "VN24",
-    "name": "CONVERSE BA CU VUNG TAU",
-    "type": "Store"
-  },
-  {
-    "code": "VN27",
-    "name": "CONVERSE CFS QUANG TRUNG",
-    "type": "Store"
-  },
-  {
-    "code": "VO02",
-    "name": "FOOTLOCKER LOTTE MALL",
-    "type": "Store"
-  },
-  {
-    "code": "VR05",
-    "name": "ROOKIE LOTTE HA NOI DEPARTMENT",
-    "type": "Store"
-  },
-  {
-    "code": "VR12",
-    "name": "ROOKIE LOTTE MALL",
-    "type": "Store"
-  },
-  {
-    "code": "Vo Lam Minh Dat",
-    "name": "Area Manager (South)",
-    "type": "Store"
-  },
-  {
-    "code": "Vo Ngoc Thanh Ngan",
-    "name": "Intern",
-    "type": "Store"
-  },
-  {
-    "code": "Vo Thi Hoang Anh Xuan",
-    "name": "Laptop Quynh AM (resigned)",
-    "type": "Store"
-  },
-  {
-    "code": "Vo Thuy Minh Tuyen",
-    "name": "Senior Merchandise",
-    "type": "Store"
-  },
-  {
-    "code": "Vu Xuan Uyen",
-    "name": "Marketing officer",
-    "type": "Store"
-  },
-  {
-    "code": "ZK04-ZV04-ZW04",
-    "name": "BAZZAR (TIKI VK & TIKI VF)",
-    "type": "Store"
-  },
-  {
-    "code": "ZK05-ZV05-ZW5",
-    "name": "BAZZAR",
-    "type": "Store"
-  },
-  {
-    "code": "ZK06-ZV06-ZW06",
-    "name": "BAZZAR",
-    "type": "Store"
-  },
-  {
-    "code": "ZV01-H103-H104",
-    "name": "BAZZAR",
-    "type": "Store"
-  },
-  {
-    "code": "ZV08",
-    "name": "EVENT",
-    "type": "Store"
-  },
-  {
-    "code": "ZV09-ZV12",
-    "name": "EVENT",
-    "type": "Store"
-  },
-  {
-    "code": "ZV10",
-    "name": "EVENT",
-    "type": "Store"
-  },
-  {
-    "code": "ZV11",
-    "name": "EVENT",
-    "type": "Store"
-  },
-  {
-    "code": "ZV13",
-    "name": "ZV13",
-    "type": "Store"
+    "code": "PO03",
+    "name": "SPORT BAZAAR PHAM VAN THUAN DONG NAI",
+    "type": "STORE",
+    "address": "1324 Pham Van Thuan, Neighborhood 1, Tan Tien Ward, Bien Hoa, Dong Nai",
+    "city": "Vậy",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "bhvn18@mapactive.vn"
   },
   {
     "code": "ZV14",
     "name": "SPORT BAZAAR PHAN VAN TRI HO CHI MINH",
-    "type": "Store"
+    "type": "STORE",
+    "address": "356B Phan Van Tri, Ward 11, Binh Thanh District, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvn20@mapactive.vn"
   },
   {
-    "code": "zv13",
-    "name": "zv13",
-    "type": "Store"
+    "code": "ZV07",
+    "name": "Planet Sport Aeon Long Bien",
+    "type": "STORE",
+    "address": "None",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hanzv07@mapactive.vn"
   },
   {
-    "code": "zv15",
-    "name": "zv15",
-    "type": "Store"
+    "code": "ZV08",
+    "name": "PRIVATE SALE (Aeon Mall Binh Tan)",
+    "type": "STORE",
+    "address": "11-13 Quang Trung, Quận Gò Vấp, Thành Phố Hồ Chí Minh",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "INACTIVE"
+  },
+  {
+    "code": "ZV09",
+    "name": "POPUP EVENT (Crescent Mall)",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "INACTIVE"
+  },
+  {
+    "code": "H101",
+    "name": "Head Office ARENA VN",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "H102",
+    "name": "Head Office ARENA VN",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZW04",
+    "name": "TIKI VF",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZK04",
+    "name": "TIKI VK",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZK06",
+    "name": "SHOPPEE VK",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZV06",
+    "name": "SHOPPEE VT",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZW06",
+    "name": "SHOPPEE VF",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZV01",
+    "name": "Tiki Consignment",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "H103",
+    "name": "MMA Head Office",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "H104",
+    "name": "SCRAP",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZV05",
+    "name": "LAZADA SPORT CONSIGNMENT VN",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZW05",
+    "name": "LAZADA FASHION CONSIGNMENT VN",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZK05",
+    "name": "LAZADA VK",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "H105",
+    "name": "GWP A&P",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "VN24",
+    "name": "CONVERSE BA CU VUNG TAU",
+    "type": "STORE",
+    "address": "179 Ba Cu, Ward 4, Vung Tau, Ba Ria - Vung Tau",
+    "city": "Vung Tau",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "vtgvn24@mapactive.vn"
+  },
+  {
+    "code": "VI06",
+    "name": "SMIGGLE VAN HANH MALL",
+    "type": "STORE",
+    "address": "11 Su Van Hanh, Ward 12, District 10, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "hcmvi06@mapactive.vn"
+  },
+  {
+    "code": "VA02",
+    "name": "NEW BALANCE TAKASHIMAYA",
+    "type": "STORE",
+    "address": "Unit #329-2 Level 3 - TAKASHIMAYA (No. 92-94 Nam Ky Khoi Nghia, Ben Nghe ward, district 1, Ho Chi Minh city)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "Hcmva02@mapactive.vn"
+  },
+  {
+    "code": "VA10",
+    "name": "NEW BALANCE LOTTE HA NOI DEPARTMENT",
+    "type": "STORE",
+    "address": "B14.4F - LOTTE DEPARTMENT STORE (No. 54 Lieu Giai, Cong Vi Ward, Ba Dinh district, Ha Noi city)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Hanva10@mapactive.vn"
+  },
+  {
+    "code": "VE06",
+    "name": "NEW ERA DIAMOND PLAZA",
+    "type": "STORE",
+    "address": "XA-32238 Level 3 - Diamond Plaza (No. 34 Le Duan street, Ben Nghe ward, district 1, Ho Chi Minh city)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmve06@mapactive.vn"
+  },
+  {
+    "code": "VA06",
+    "name": "NEW BALANCE CRESCENT MALL",
+    "type": "STORE",
+    "address": "3F-33 - Crescent Mall, 101 Tôn Dật Tiên, Phường Tân Hưng, Quận 7, Thành Phố Hồ Chí Minh.",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hcmva06@mapactive.vn"
+  },
+  {
+    "code": "VN27",
+    "name": "CONVERSE CFS QUANG TRUNG",
+    "type": "STORE",
+    "address": "11-13 Quang Trung, Quận Gò Vấp, Thành Phố Hồ Chí Minh",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnvn27@mapactive.vn"
+  },
+  {
+    "code": "VA22",
+    "name": "NEW BALANCE 78 NGUYEN TRAI CAN THO",
+    "type": "STORE",
+    "address": "78 Nguyen Trai Can Tho",
+    "city": "Can Tho",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Vcava22@mapactive.vn"
+  },
+  {
+    "code": "VN22",
+    "name": "CONVERSE 78 NGUYEN TRAI CAN THO",
+    "type": "STORE",
+    "address": "78 Nguyen Trai Can Tho",
+    "city": "Can Tho",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Vtgvn22@mapactive.vn"
+  },
+  {
+    "code": "VN11",
+    "name": "CONVERSE IPH HN MALL",
+    "type": "STORE",
+    "address": "2-228 Indochina Plaza Hà Nội (IPH Mall)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "Hanvn11@mapactive.vn"
+  },
+  {
+    "code": "VA08",
+    "name": "NEW BALANCE DIAMOND PLAZA",
+    "type": "STORE",
+    "address": "XA-32239 Diamond Plaza (No. 34 Le Duan street, Ben Nghe ward, district 1, Ho Chi Minh city)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Hcmva08@mapactive.vn"
+  },
+  {
+    "code": "KN09",
+    "name": "BIRKENSTOCK CRESCENT MALL",
+    "type": "STORE",
+    "address": "2F-18B Crescent Mall (No. 101 Ton Dat Tien, Tan Phu Ward, District 7)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Sgnkn09@mapactive.vn"
+  },
+  {
+    "code": "VA01",
+    "name": "NEW BALANCE VAN HANH MALL",
+    "type": "STORE",
+    "address": "2-07B Van Hanh Mall",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva01@mapactive.vn"
+  },
+  {
+    "code": "VE12",
+    "name": "NEW ERA LOTTE MALL",
+    "type": "STORE",
+    "address": "2F-240,241 lot - Lotte Mall (No. 683 Lac Long Quan street, Phu Thuong ward, Tay Ho district)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Hanve12@mapactive.vn"
+  },
+  {
+    "code": "VR12",
+    "name": "ROOKIE LOTTE MALL",
+    "type": "STORE",
+    "address": "3F-333 lot - Lotte Mall (No. 683 Lac Long Quan street, Phu Thuong ward, Tay Ho district)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Hanvr12@mapactive.vn"
+  },
+  {
+    "code": "VN12",
+    "name": "CONVERSE LOTTE MALL",
+    "type": "STORE",
+    "address": "2F-228 lot - Lotte Mall (No. 683 Lac Long Quan street, Phu Thuong ward, Tay Ho district)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Hanvn12@mapactive.vn"
+  },
+  {
+    "code": "VA12",
+    "name": "NEW BALANCE LOTTE MALL",
+    "type": "STORE",
+    "address": "2F-229 lot - Lotte Mall (No. 683 Lac Long Quan street, Phu Thuong ward, Tay Ho district)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "Hanva12@mapactive.vn"
+  },
+  {
+    "code": "VA09",
+    "name": "NEW BALANCE IPH MALL",
+    "type": "STORE",
+    "address": "Toà nhà IPH số 241 Xuân Thuỷ, phường Dịch Vọng Hậu, quận Cầu Giấy, Hà Nội",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE",
+    "email": "HANVA09@mapactive.vn"
+  },
+  {
+    "code": "VO02",
+    "name": "FOOTLOCKER LOTTE MALL",
+    "type": "STORE",
+    "address": "2F-227 lot - Lotte Mall (No. 683 Lac Long Quan street, Phu Thuong ward, Tay Ho district)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hanvo02@mapactive.vn"
+  },
+  {
+    "code": "KN12",
+    "name": "BIRKENSTOCK LOTTE MALL",
+    "type": "STORE",
+    "address": "2F-233 lot - Lotte Mall (No. 683 Lac Long Quan street, Phu Thuong ward, Tay Ho district)",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "HANKN12@mapactive.vn"
+  },
+  {
+    "code": "VA11",
+    "name": "NEW BALANCE 89 NGUYEN TRAI",
+    "type": "STORE",
+    "address": "89 Nguyen Trai Street, Ben Thanh Ward, District 1",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "SGNVA11@mapactive.vn"
+  },
+  {
+    "code": "VA03",
+    "name": "NEW BALANCE AEON HAI PHONG",
+    "type": "STORE",
+    "address": "Floor 2 Aeon Mall Le Chan, 10 Vo Nguyen Giap, Du Hang Kenh, Le Chan, Hai Phong",
+    "city": "Hai Phong",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "HPHVA03@mapactive.vn"
+  },
+  {
+    "code": "VR05",
+    "name": "ROOKIE LOTTE HA NOI DEPARTMENT",
+    "type": "STORE",
+    "address": "Floor 5, No 54 Lieu Giai Street, Ngoc Khanh Ward, Ba Dinh District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE"
+  },
+  {
+    "code": "VI05",
+    "name": "SMIGGLE LOTTE HA NOI DEPARTMENT",
+    "type": "STORE",
+    "address": "Floor 5, No 54 Lieu Giai Street, Ngoc Khanh Ward, Ba Dinh District, Ha Noi",
+    "city": "Ha Noi",
+    "country": "Vietnam",
+    "status": "INACTIVE"
+  },
+  {
+    "code": "KN08",
+    "name": "BIRKEN DIAMOND PLAZA",
+    "type": "STORE",
+    "address": "XA-32240 (34 Le Duan street, Ben Nghe ward, district 1, Ho Chi Minh city)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnkn08@mapactive.vn"
+  },
+  {
+    "code": "ZV11",
+    "name": "Go Vap UIH",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "INACTIVE"
+  },
+  {
+    "code": "KN10",
+    "name": "BIRKEN STOCK GOLDCOAST NHA TRANG",
+    "type": "STORE",
+    "address": "Floor G, GoldCoast Mall, 01 Tran Hung Dao, Loc Tho, Nha Trang, Khanh Hoa",
+    "city": "NHA TRANG",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "vfknkn10@mapactive.vn"
+  },
+  {
+    "code": "VA04",
+    "name": "NEW BALANCE GOLDCOAST NHA TRANG",
+    "type": "STORE",
+    "address": "Floor G, GoldCoast Mall, 01 Tran Hung Dao, Loc Tho, Nha Trang, Khanh Hoa",
+    "city": "NHA TRANG",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "vtvava04@mapactive.vn"
+  },
+  {
+    "code": "VA05",
+    "name": "NEW BALANCE VINCOM THAO DIEN",
+    "type": "STORE",
+    "address": "Floor 2, No. 161 Hanoi road, Thao Dien ward, Thu Duc city",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva05@mapactive.vn"
+  },
+  {
+    "code": "ZV12",
+    "name": "Event Diamond Plaza",
+    "type": "STORE",
+    "address": "VN Head Office - 14th Floor, Lottery Tower, 77 Tran Nhan Ton, Ward 9, District 5, Ho Chi Minh City",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "ACTIVE"
+  },
+  {
+    "code": "ZV10",
+    "name": "Event Count down",
+    "type": "STORE",
+    "address": "None",
+    "city": "None",
+    "country": "Vietnam",
+    "status": "INACTIVE"
+  },
+  {
+    "code": "VA15",
+    "name": "New Balance Sai Gon Center",
+    "type": "STORE",
+    "address": "65 Le Loi, Ben Nghe Ward, District 1, HCMC, Viet Nam",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva15@mapactive.vn"
+  },
+  {
+    "code": "VA16",
+    "name": "New Balance Quang Trung",
+    "type": "STORE",
+    "address": "159-161 Quang Trung, Ward 11, Go Vap District, HCMC, Viet Nam",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva16@mapactive.vn"
+  },
+  {
+    "code": "VA13",
+    "name": "New Balance Parc Mall",
+    "type": "STORE",
+    "address": "L2-09 Parc Mall  - 549 Ta Quang Buu, Ward 4, District 8, HCMC, Viet Nam",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva13@mapactive.vn"
+  },
+  {
+    "code": "VA20",
+    "name": "New Balance Vincom Lotte Nam Sai Gon",
+    "type": "STORE",
+    "address": "Lotte Mart, 469 Đ. Nguyễn Hữu Thọ, Tân Hưng, Quận 7, Hồ Chí Minh 700000",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva20@mapactive.vn"
+  },
+  {
+    "code": "VA14",
+    "name": "New Balance Vincom Vincom Dong Khoi",
+    "type": "STORE",
+    "address": "72 Le Thanh Ton, Ben Nghe Ward, District 1, HCMC, Viet Nam",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "sgnva14mapactive.vn"
+  },
+  {
+    "code": "VA23",
+    "name": "New Balance Lotte Lieu Giai",
+    "type": "STORE",
+    "address": "None",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE",
+    "email": "hanva23@mapactive.vn"
+  },
+  {
+    "code": "HO-VN",
+    "name": "Head Office - Ho Chi Minh",
+    "type": "OFFICE",
+    "address": "Ho Chi Minh City, Vietnam",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "status": "ACTIVE"
   }
 ]
