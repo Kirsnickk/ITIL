@@ -21,7 +21,7 @@ import {
   Dashboard,
   Inventory,
   ShoppingCart,
-  License,
+  CardMembership,
   Business,
   LocationOn,
   Logout,
@@ -34,7 +34,7 @@ const menuItems = [
   { text: 'Dashboard', path: '/', icon: <Dashboard /> },
   { text: 'Assets', path: '/assets', icon: <Inventory /> },
   { text: 'Procurement', path: '/procurement', icon: <ShoppingCart /> },
-  { text: 'Licenses', path: '/licenses', icon: <License /> },
+  { text: 'Licenses', path: '/licenses', icon: <CardMembership /> },
   { text: 'Departments', path: '/departments', icon: <Business /> },
   { text: 'Locations', path: '/locations', icon: <LocationOn /> },
 ]

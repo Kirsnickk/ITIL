@@ -1,11 +1,11 @@
 import { Box, Grid, Paper, Typography, Card, CardContent } from '@mui/material'
-import { Inventory, ShoppingCart, License, Business } from '@mui/icons-material'
+import { Inventory, ShoppingCart, CardMembership, Business } from '@mui/icons-material'
 
 export default function DashboardPage() {
   const stats = [
     { title: 'Total Assets', value: '1,234', icon: <Inventory fontSize="large" />, color: '#1976d2' },
     { title: 'Pending Procurement', value: '45', icon: <ShoppingCart fontSize="large" />, color: '#f57c00' },
-    { title: 'Active Licenses', value: '89', icon: <License fontSize="large" />, color: '#388e3c' },
+    { title: 'Active Licenses', value: '89', icon: <CardMembership fontSize="large" />, color: '#388e3c' },
     { title: 'Departments', value: '12', icon: <Business fontSize="large" />, color: '#7b1fa2' },
   ]
 

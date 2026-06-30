@@ -1,197 +1,238 @@
 # ITIL Asset Management System
 
-Hệ thống quản lý tài sản, thiết bị và license IT toàn diện cho tổ chức retail đa quốc gia.
+Full-stack web application for IT asset management across 70+ retail stores in Vietnam, Cambodia, and Laos.
 
-## 📋 Tổng quan
-
-**Phạm vi**: 70+ stores tại Vietnam, Cambodia, Laos  
-**Tài sản**: 500+ IT assets (laptops, POS, printers, network devices)  
-**Nhân sự**: 100+ office employees  
-**Procurement**: 398 ITP records tracked
-
-## 🎯 Mục tiêu
-
-- ✅ **100% visibility** - Biết chính xác tài sản gì, ở đâu, ai đang dùng
-- ✅ **Giảm 10-15% cost** - Tối ưu procurement, tránh mua thừa
-- ✅ **Compliance** - License hợp lệ, audit trail đầy đủ
-- ✅ **Tự động hóa workflow** - Procurement, approval, deployment
-
-## 📁 Cấu trúc Repository
-
-```
-ITIL/
-├── README.md                          # File này - tổng quan dự án
-├── Plan & Implementation/
-│   └── README.md                      # Kế hoạch triển khai 6 tháng chi tiết
-├── Schema & Flow/
-│   ├── README.md                      # Summary của technical docs
-│   ├── 01-Database-Schema.md          # PostgreSQL schema (17 tables)
-│   ├── 02-Database-Schema-Extended.md # Supporting tables & functions
-│   ├── 03-Process-Flows.md            # Business process flowcharts
-│   ├── 04-API-Endpoints.md            # RESTful API specification
-│   ├── 05-Data-Migration-Guide.md     # Excel → Database migration
-│   ├── 06-Migration-Checklist.md      # 4-week migration timeline
-│   ├── 07-Technical-Stack.md          # Technology choices
-│   └── 08-Deployment-Guide.md         # AWS/On-premise deployment
-└── Data/
-    ├── Infra Management.xlsx          # Main asset inventory
-    ├── LICENSE MMA.xlsx               # License tracking
-    ├── Procurement & Request Management.xlsx
-    ├── Asset management/              # Office, Store, Warehouse
-    ├── Audit 2026 device/             # Audit data
-    └── _PUR_Docs/                     # ITP00001-ITP00398 folders
-
-```
+**Tech Stack:**
+- Frontend: React + TypeScript + Vite + Material-UI (Vercel)
+- Backend: Node.js + Express + Prisma (Railway)
+- Database: PostgreSQL (Railway)
 
 ## 🚀 Quick Start
 
-### Để hiểu dự án
-👉 **Bắt đầu tại**: `Plan & Implementation/README.md`
+### Prerequisites
+- Node.js 20+
+- PostgreSQL database
 
-### Để develop
-👉 **Đọc**: `Schema & Flow/` folder (technical documentation)
+### Local Development
 
-### Để deploy
-👉 **Đọc**: `Schema & Flow/08-Deployment-Guide.md`
+```bash
+# Backend
+cd backend
+npm install
+cp .env.example .env
+# Edit .env with DATABASE_URL
+npm run prisma:generate
+npm run prisma:migrate
+npm run dev
 
-## 📊 Hiện trạng
-
-### Data Sources (Excel)
-- **955 files** tổng cộng
-- **6 core Excel files** chứa master data
-- **40+ per-store files** cho Store inventory
-- **398 ITP folders** với procurement PDFs
-- **2000+ documents** cần migrate
-
-### Pain Points
-- ❌ Data scattered across nhiều Excel files
-- ❌ Manual copy-paste giữa files
-- ❌ Không real-time tracking
-- ❌ Hard to audit changes
-- ❌ Duplicate risk cao
-
-## 🎯 Giải pháp
-
-### Phase 1-6 Implementation (6 tháng)
-
-**Phase 1** (Tháng 1-2): Foundation  
-→ Database setup, data migration
-
-**Phase 2** (Tháng 3-4): Procurement Workflow  
-→ Digital procurement process
-
-**Phase 3** (Tháng 5-6): Asset Lifecycle  
-→ Assignment, maintenance, retirement
-
-**Phase 4** (Tháng 7): License Management  
-→ Compliance & optimization
-
-**Phase 5** (Tháng 8): Reporting & Analytics  
-→ Dashboard cho management
-
-**Phase 6** (Tháng 9-10): Integration  
-→ Connect HR, Accounting systems
-
-## 🏗️ Technical Architecture
-
-```
-Frontend (React + TypeScript)
-        ↓
-    REST API (Node.js + Express)
-        ↓
-PostgreSQL Database (17 tables)
-        ↓
-    File Storage (S3 or local)
+# Frontend (separate terminal)
+cd frontend
+npm install
+cp .env.example .env
+# Edit .env with VITE_API_URL=http://localhost:4000
+npm run dev
 ```
 
-**Key Features**:
-- JWT authentication
-- Role-based access control
-- Real-time notifications
-- Document management
-- Audit trail
-- Advanced reporting
+Backend: http://localhost:4000
+Frontend: http://localhost:5173
 
-## 💰 Budget & ROI
+## 📁 Project Structure
 
-### Development Cost
-- Team: $70,000 - $110,000 (6 months)
-- Infrastructure: $500 - $1,000/month
-- **Total Dev**: ~$70K-110K
+```
+ITIL/
+├── backend/              # Node.js API
+│   ├── prisma/           # Database schema
+│   ├── src/              # Source code
+│   └── package.json
+├── frontend/             # React app
+│   ├── src/              # Source code
+│   └── package.json
+├── Data/                 # Excel data (955 files)
+├── Plan & Implementation/
+└── Schema & Flow/
+```
 
-### Operational Cost
-- Hosting: $6K-12K/year
-- Maintenance: $10K-20K/year
-- **Total Annual**: $16K-32K
+## 🌐 Deployment (Vercel + Railway)
 
-### Expected Benefits
-- Time savings: **$52K/year**
-- Cost avoidance: **$30K/year**
-- **Total benefit**: $82K/year
-- **Payback**: 12-18 months
+### 1. Database (Railway PostgreSQL)
+
+1. Create Railway project: https://railway.app
+2. Add PostgreSQL service
+3. Copy DATABASE_URL from Railway dashboard
+
+### 2. Backend (Railway)
+
+1. In Railway project, click "New Service" → "GitHub Repo"
+2. Connect your GitHub repository
+3. Configure service:
+   - **Root Directory**: `backend`
+   - **Build Command**: `npm install && npx prisma generate && npx prisma migrate deploy`
+   - **Start Command**: `npm start`
+4. Environment variables (auto-configured):
+   - `DATABASE_URL` - From PostgreSQL service
+   - `PORT` - Auto-set by Railway
+   - `NODE_ENV` - Set to `production`
+   - Add manually:
+     - `JWT_SECRET` - Random secure string
+     - `CORS_ORIGIN` - Your Vercel frontend URL
+
+### 3. Frontend (Vercel)
+
+1. Push code to GitHub
+2. Go to https://vercel.com → Import Project
+3. Connect GitHub repository
+4. Configure:
+   - **Root Directory**: `frontend`
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+5. Environment Variables:
+   - `VITE_API_URL` - Your Railway backend URL (e.g., `https://itil-backend.up.railway.app`)
+6. Deploy
+
+### 4. Verify Deployment
+
+1. Open Vercel frontend URL
+2. Login page should load
+3. Create first admin user via backend API
+
+## 🔑 First Admin User
+
+After deployment, create admin user:
+
+```bash
+curl -X POST https://your-backend.railway.app/api/v1/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{
+    "email": "admin@company.com",
+    "username": "admin",
+    "password": "SecurePassword123",
+    "firstName": "Admin",
+    "lastName": "User"
+  }'
+```
+
+Then manually update user role to ADMIN in database.
+
+## 📊 Features
+
+- **Asset Management** - Track laptops, monitors, network devices (70+ stores)
+- **Procurement** - Request and approval workflow (ITP00001-ITP00398)
+- **License Tracking** - Software licenses (~500 licenses)
+- **Multi-Location** - Vietnam, Cambodia, Laos support
+- **Audit Trail** - Full change history
+- **Role-Based Access** - Admin/Manager/User/Viewer
 
 ## 📖 Documentation
 
-### Business Documents
-- [Plan & Implementation](Plan%20%26%20Implementation/README.md) - Roadmap, phases, budget
+- `/Plan & Implementation/README.md` - 6-month roadmap, budget, ROI
+- `/Schema & Flow/` - Database schema, API docs, migration guide
+- `/backend/README.md` - Backend API documentation
+- `/frontend/README.md` - Frontend development guide
 
-### Technical Documents
-- [Database Schema](Schema%20%26%20Flow/01-Database-Schema.md) - PostgreSQL tables
-- [API Endpoints](Schema%20%26%20Flow/04-API-Endpoints.md) - RESTful API spec
-- [Migration Guide](Schema%20%26%20Flow/05-Data-Migration-Guide.md) - Excel → DB
-- [Deployment Guide](Schema%20%26%20Flow/08-Deployment-Guide.md) - Production setup
+## 🔧 Tech Details
 
-### Process Documents
-- [Process Flows](Schema%20%26%20Flow/03-Process-Flows.md) - Business workflows
-- [Migration Checklist](Schema%20%26%20Flow/06-Migration-Checklist.md) - 4-week plan
+**Backend:**
+- Node.js 20 + Express 4
+- Prisma ORM 5
+- PostgreSQL 15
+- JWT authentication
+- 17 database tables
 
-## 🔧 Technology Stack
+**Frontend:**
+- React 18 + TypeScript
+- Vite build tool
+- Material-UI components
+- TanStack Query
+- Zustand state management
 
-**Backend**: Node.js + Express + Prisma ORM  
-**Frontend**: React + TypeScript + Material-UI  
-**Database**: PostgreSQL 15+  
-**Storage**: AWS S3 or local filesystem  
-**Deployment**: AWS (ECS/RDS) or On-premise
+## 💰 Cost Estimate
 
-## 📈 Success Metrics
+**Vercel (Frontend):**
+- Free tier (sufficient for internal use)
+- Auto HTTPS, CDN, auto-deploy
 
-**Operational**:
-- 100% assets tracked in database
-- Procurement cycle: 30 days → 15 days
-- License compliance: 100%
-- Audit variance: < 2%
+**Railway (Backend + Database):**
+- ~$15-20/month
+- Managed PostgreSQL
+- Auto-scaling
+- Included $5/month free credit
 
-**Business**:
-- 10-15% cost savings on procurement
-- 20 hours/week time savings
-- User satisfaction > 4/5
+**Total: ~$10-15/month**
 
-## 🎓 Next Steps
+## 🛠️ Maintenance
 
-### Week 1
-- [ ] Review documentation với stakeholders
-- [ ] Get budget approval
-- [ ] Assign team members
+```bash
+# Update dependencies
+cd backend && npm update
+cd frontend && npm update
 
-### Month 1
-- [ ] Setup development environment
-- [ ] Create database schema
-- [ ] Extract data from Excel
+# Database migrations
+cd backend
+npm run prisma:migrate
 
-### Month 2-6
-- [ ] Develop features (按 phases)
-- [ ] Testing & QA
-- [ ] User training
-- [ ] Production deployment
+# View database
+npm run prisma:studio
+```
 
-## 📞 Contact
+## 📝 Data Migration
 
-**Project Owner**: IT Manager  
-**Technical Lead**: [TBD]  
-**Data Lead**: [TBD]
+955 Excel files in `/Data` ready for migration:
+
+```bash
+# Run migration scripts (to be created)
+cd backend
+node scripts/migrate-assets.js
+node scripts/migrate-procurement.js
+node scripts/migrate-licenses.js
+```
+
+## 🔒 Security
+
+- JWT tokens (7-day expiry)
+- Bcrypt password hashing
+- CORS configured
+- Helmet security headers
+- Input validation
+- SQL injection protection (Prisma)
+
+## 🌍 Multi-Country Support
+
+- Vietnam: 70+ stores
+- Cambodia: Multiple locations
+- Laos: Expanding
+- Multi-currency support ready
+
+## 📞 Support
+
+For issues, check:
+1. Backend logs in Railway dashboard
+2. Frontend logs in browser console
+3. Database via Prisma Studio
+
+## 🚦 Status
+
+- ✅ Backend API - Complete
+- ✅ Frontend UI - Complete
+- ✅ Database Schema - Complete
+- ⏳ Data Migration - Pending
+- ⏳ Production Deployment - Ready to deploy
+
+## 📅 Next Steps
+
+1. **Deploy** - Push to Railway + Vercel
+2. **Migrate Data** - Import 955 Excel files
+3. **Create Users** - Add team accounts
+4. **Training** - Onboard users
+5. **Go Live** - Start tracking assets
+
+## 🔗 Links
+
+- GitHub: (Your repository)
+- Frontend: (Vercel URL after deploy)
+- Backend: (Railway URL after deploy)
+- Documentation: `/Plan & Implementation/`
 
 ---
 
-**Document Version**: 1.0  
-**Created**: 2026-06-30  
-**Status**: ✅ Documentation Complete - Ready for Implementation
+Built for ITIL-based asset management across retail operations in Southeast Asia.
