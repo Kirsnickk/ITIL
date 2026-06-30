@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: itil-backend
+    env: node
+    region: singapore
+    plan: free
+    branch: main
+    rootDir: backend
+    buildCommand: npm install && npx prisma generate
+    startCommand: npx prisma migrate deploy && node src/server.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: CORS_ORIGIN
+        value: https://frontend-iota-seven-77.vercel.app
+      - key: DATABASE_URL
+        fromDatabase:
+          name: itil-postgres
+          property: connectionString
+
+databases:
+  - name: itil-postgres
+    region: singapore
+    plan: free
+    databaseName: itil_db
+    user: itil_user
