@@ -11,10 +11,10 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:deploy": "prisma migrate deploy",
     "prisma:studio": "prisma studio",
-    "prisma:seed": "node scripts/minimal-seed.js"
+    "prisma:seed": "node scripts/import-real-data.js"
   },
   "prisma": {
-    "seed": "node scripts/minimal-seed.js"
+    "seed": "node scripts/import-real-data.js"
   },
   "keywords": ["itil", "asset-management", "api"],
   "author": "",
