@@ -53,9 +53,9 @@ async function minimalSeed() {
     console.log('📍 Creating locations...');
     const locations = await prisma.location.createMany({
       data: [
-        { name: 'Head Office', code: 'HO', address: 'Ho Chi Minh City', country: 'VN' },
-        { name: 'Store 1', code: 'ST01', address: 'District 1, HCMC', country: 'VN' },
-        { name: 'Store 2', code: 'ST02', address: 'District 3, HCMC', country: 'VN' },
+        { name: 'Head Office', code: 'HO', type: 'OFFICE', address: 'Ho Chi Minh City', country: 'VN' },
+        { name: 'Store 1', code: 'ST01', type: 'STORE', address: 'District 1, HCMC', country: 'VN' },
+        { name: 'Store 2', code: 'ST02', type: 'STORE', address: 'District 3, HCMC', country: 'VN' },
       ],
     });
     console.log(`   ✓ Created ${locations.count} locations\n`);
