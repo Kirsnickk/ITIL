@@ -16,8 +16,31 @@ const prisma = new PrismaClient();
 // Helper: Read JSON file
 function readJSON(filename) {
   const filePath = path.join(__dirname, 'extracted-data', filename);
-  const data = fs.readFileSync(filePath, 'utf-8');
-  return JSON.parse(data);
+  
+  // Check if file exists
+  if (!fs.existsSync(filePath)) {
+    console.error(`   ❌ File not found: ${filePath}`);
+    console.error(`   ℹ️  Current directory: ${__dirname}`);
+    console.error(`   ℹ️  Looking for: ${filename}`);
+    throw new Error(`File not found: ${filename}`);
+  }
+  
+  // Check if file is readable
+  try {
+    fs.accessSync(filePath, fs.constants.R_OK);
+  } catch (err) {
+    console.error(`   ❌ File not readable: ${filePath}`);
+    throw new Error(`File not readable: ${filename}`);
+  }
+  
+  // Read and parse JSON
+  try {
+    const data = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(data);
+  } catch (err) {
+    console.error(`   ❌ Error reading/parsing ${filename}: ${err.message}`);
+    throw err;
+  }
 }
 
 // Helper: Generate asset tag from asset ID
@@ -248,6 +271,38 @@ async function main() {
     }
   }
   console.log(`   ✓ Created ${assetCount} assets\n`);
+
+  // ============================================
+  // EMERGENCY ADMIN ACCOUNT
+  // ============================================
+  console.log('👤 Creating emergency admin account...');
+  
+  try {
+    // Check if admin exists
+    const existingAdmin = await prisma.user.findUnique({
+      where: { email: 'admin@itil.com' }
+    });
+    
+    if (!existingAdmin) {
+      // Create admin account
+      const adminPassword = await bcrypt.hash('Admin@123', 10);
+      await prisma.user.create({
+        data: {
+          email: 'admin@itil.com',
+          password: adminPassword,
+          fullName: 'System Administrator',
+          role: 'ADMIN',
+          isActive: true,
+        },
+      });
+      console.log('   ✓ Emergency admin created (admin@itil.com / Admin@123)');
+    } else {
+      console.log('   ✓ Admin account already exists');
+    }
+  } catch (error) {
+    console.log(`   ⚠️  Could not create admin: ${error.message}`);
+  }
+  console.log();
 
   // ============================================
   // SUMMARY
