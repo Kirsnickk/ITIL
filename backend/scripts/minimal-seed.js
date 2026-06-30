@@ -14,7 +14,7 @@ async function minimalSeed() {
     console.log('🗑️  Clearing database...');
     await prisma.asset.deleteMany({});
     await prisma.license.deleteMany({});
-    await prisma.procurement.deleteMany({});
+    await prisma.procurementRequest.deleteMany({});
     await prisma.user.deleteMany({});
     await prisma.location.deleteMany({});
     await prisma.department.deleteMany({});
@@ -26,8 +26,10 @@ async function minimalSeed() {
     const admin = await prisma.user.create({
       data: {
         email: 'admin@itil.com',
-        password: adminPassword,
-        fullName: 'System Administrator',
+        username: 'admin',
+        passwordHash: adminPassword,
+        firstName: 'System',
+        lastName: 'Administrator',
         role: 'ADMIN',
         isActive: true,
       },
@@ -64,8 +66,10 @@ async function minimalSeed() {
     const user = await prisma.user.create({
       data: {
         email: 'user@itil.com',
-        password: userPassword,
-        fullName: 'Test User',
+        username: 'testuser',
+        passwordHash: userPassword,
+        firstName: 'Test',
+        lastName: 'User',
         role: 'USER',
         isActive: true,
       },
