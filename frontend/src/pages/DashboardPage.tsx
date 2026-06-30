@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, Typography, Card, CardContent, CircularProgress, Alert } from '@mui/material'
+import { Box, Grid, Paper, Typography, Card, CardContent, CircularProgress } from '@mui/material'
 import { Inventory, ShoppingCart, CardMembership, Business } from '@mui/icons-material'
 import { useQuery } from '@tanstack/react-query'
 import api from '../services/api'
@@ -46,8 +46,6 @@ export default function DashboardPage() {
     (license: any) => license.status === 'ACTIVE'
   ).length || 0
   const totalDepartments = departmentsData?.departments?.length || 0
-
-  const isLoading = assetsLoading || procurementLoading || licensesLoading || departmentsLoading
 
   const stats = [
     { 
